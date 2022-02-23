@@ -1,0 +1,21 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+django = "~=3.2"
+autopep8 = "*"
+pylint = "*"
+djangorestframework = "~=3.12"
+django-cors-headers = "~=3.10"
+pylint-django = "*"
+pillow = "~=8.4"
+faker = "*"
+faker-commerce = "*"
+drf-yasg = "~=1.20"
+
+[dev-packages]
+
+[requires]
+python_version = "3.9"
